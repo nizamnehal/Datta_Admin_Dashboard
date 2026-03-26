@@ -28,7 +28,7 @@ This dashboard provides a clean and scalable UI for managing data, visualizing a
 
 <p align="center">
   <a href="https://nizam-datta-admin-dashboard.netlify.app">
-    <img src="assets/images/dashboard-preview.png" width="100%" />
+    <img src="src/assets/images/dashboard-preview.png" width="100%" />
   </a>
 </p>
 
