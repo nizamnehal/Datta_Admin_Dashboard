@@ -1,5 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import img from "/src/assets/images/logo-white.svg";
+
 
 import {
   Home,
@@ -25,7 +27,7 @@ function Sidebar() {
 
       {/* Logo */}
       <div className="flex items-center px-6 py-5">
-        <img src="/src/assets/images/logo-white.svg" alt="logo and text" />
+        <img src={img} alt="logo and text" />
       </div>
 
       <div className="px-6 py-4 text-xs text-[rgb(232,237,247)]">NAVIGATION</div>

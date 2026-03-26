@@ -1,146 +1,78 @@
-dashboard-tailwind/
+Datta_Admin_Dashboard/
 │
-├── public/
+├── dist/                         # Production build files
+│   ├── assets/
+│   │   ├── index-*.js
+│   │   ├── index-*.css
+│   │   ├── logo-dark.svg
+│   │   ├── logo-white.svg
+│   │   └── fav_icon.png
 │   └── index.html
 │
-├── src/
+├── public/                       # Static public assets
+│   ├── fav_icon.png
+│   └── folder_structure
+│
+├── src/                          # Main source code
 │
 │   ├── assets/
-│   │   ├── images/
-│   │   │   ├── avatars/
-│   │   │   └── logo/
-│   │   └── icons/
+│   │   ├── icons/
+│   │   └── images/
+│   │       ├── logo-dark.svg
+│   │       ├── dashboard-preview.png
+│   │       └── logo-white.svg
 │
 │   ├── components/
-│   │
+│   │   ├── common/
+│   │   │   └── Breadcrumb.jsx
+│   │   │
 │   │   ├── layout/
-│   │   │   ├── Sidebar.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── MainLayout.jsx
 │   │   │   ├── Navbar.jsx
-│   │   │   ├── Header.jsx
-│   │   │   └── Layout.jsx
-│   │
-│   │   ├── dashboard/
-│   │   │   ├── SalesCard.jsx
-│   │   │   ├── SocialCard.jsx
-│   │   │   ├── RatingCard.jsx
-│   │   │   ├── RecentUsers.jsx
-│   │   │   └── UserRow.jsx
-│   │
-│   │   ├── ui/
-│   │   │   ├── Card.jsx
-│   │   │   ├── ProgressBar.jsx
-│   │   │   ├── Button.jsx
-│   │   │   └── Avatar.jsx
+│   │   │   └── Sidebar.jsx
+│   │   │
+│   │   └── ui/
 │
 │   ├── pages/
-│   │   └── Dashboard.jsx
-│
-│   ├── data/
-│   │   ├── users.js
-│   │   └── stats.js
+│   │   ├── auth/
+│   │   │   ├── Login.jsx
+│   │   │   └── Register.jsx
+│   │   │
+│   │   ├── color/
+│   │   │   ├── Color.jsx
+│   │   │   ├── ColorRow.jsx
+│   │   │   └── ThemeColors.jsx
+│   │   │
+│   │   ├── dashboard/
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── RatingCard.jsx
+│   │   │   ├── RecentUsers.jsx
+│   │   │   ├── SalesCard.jsx
+│   │   │   └── SocialCard.jsx
+│   │   │
+│   │   ├── icons/
+│   │   │   └── Icons.jsx
+│   │   │
+│   │   ├── sample/
+│   │   │   └── Sample.jsx
+│   │   │
+│   │   └── typography/
+│   │       ├── Inline_Context.jsx
+│   │       ├── ListsSection.jsx
+│   │       ├── QuotesDescription.jsx
+│   │       ├── Typography_Heading.jsx
+│   │       └── Typography.jsx
 │
 │   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
 │   └── main.jsx
 │
-├── tailwind.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
 ├── postcss.config.js
-└── package.json
-
-
-Page Wise Components
-src
- ├ components
- │   ├ layout
- │   │   ├ Navbar.jsx
- │   │   └ Sidebar.jsx
- │   │
- │   └ ui
- │       └ Card.jsx
- │
- ├ pages
- │   ├ dashboard
- │   │   ├ Dashboard.jsx
- │   │   ├ SalesCard.jsx
- │   │   ├ SocialCard.jsx
- │   │   ├ RatingCard.jsx
- │   │   └ RecentUsers.jsx
- │   │
- │   ├ typography
- │   │   ├ Typography.jsx
- │   │   ├ InlineContextual.jsx
- │   │   ├ ListsSection.jsx
- │   │   └ QuotesDescription.jsx
- │   │
- │   ├ auth
- │   │   ├ Login.jsx
- │   │   └ Register.jsx
- │   │
- │   └ icons
- │       └ Icons.jsx
- │
- └ App.jsx
-
-
-
-
-Professional React Dashboard Structure
- src
-│
-├── assets
-│   ├── images
-│   ├── icons
-│   └── styles
-│       └── global.css
-│
-├── components
-│   ├── ui
-│   │   ├── Button.jsx
-│   │   ├── Card.jsx
-│   │   ├── Input.jsx
-│   │   └── Modal.jsx
-│   │
-│   ├── layout
-│   │   ├── Navbar.jsx
-│   │   ├── Sidebar.jsx
-│   │   ├── Footer.jsx
-│   │   └── MainLayout.jsx
-│   │
-│   └── common
-│       ├── Loader.jsx
-│       └── Breadcrumb.jsx
-│
-├── pages
-│   ├── dashboard
-│   │   ├── Dashboard.jsx
-│   │   ├── SalesCard.jsx
-│   │   ├── SocialCard.jsx
-│   │   ├── RatingCard.jsx
-│   │   └── RecentUsers.jsx
-│   │
-│   ├── typography
-│   │   ├── Typography.jsx
-│   │   ├── InlineContextual.jsx
-│   │   ├── ListsSection.jsx
-│   │   └── QuotesDescription.jsx
-│   │
-│   ├── icons
-│   │   └── Icons.jsx
-│   │
-│   └── auth
-│       ├── Login.jsx
-│       └── Register.jsx
-│
-├── routes
-│   └── AppRoutes.jsx
-│
-├── hooks
-│   └── useAuth.js
-│
-├── services
-│   └── api.js
-│
-├── utils
-│   └── helpers.js
-│
-├── App.jsx
-└── main.jsx
+├── eslint.config.js
+└── README.md

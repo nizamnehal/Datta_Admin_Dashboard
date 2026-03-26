@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import img from "/src/assets/images/logo-dark.svg";
 
 function Register() {
   return (
@@ -8,7 +9,7 @@ function Register() {
 
         {/* Logo */}
         <div className="flex items-center justify-center mb-6 ">
-          <img src="/src/assets/images/logo-dark.svg" alt="logo and text" className="w-32" />
+          <img src={img} alt="logo and text" className="w-32" />
         </div>
 
         {/* Title */}
