@@ -1,10 +1,10 @@
 # 📊 Datta Admin Dashboard
 
 <p align="center">
-  <a href="https://nizam-datta-admin-dashboard.netlify.app">
+  <a href="https://admin-dashboard-n.netlify.app">
     <img src="https://img.shields.io/badge/Live%20Demo-View%20Dashboard-blue?style=for-the-badge&logo=vercel" />
   </a>
-  <a href="https://github.com/nizamnehal/Datta_Admin_Dashboard">
+  <a href=" https://github.com/nizamnehal/Dashboard.git">
     <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github" />
   </a>
 </p>
@@ -20,14 +20,14 @@ This dashboard provides a clean and scalable UI for managing data, visualizing a
 
 ## 🌐 Live Demo
 
-🚀 https://nizam-datta-admin-dashboard.netlify.app
+🚀 https://admin-dashboard-n.netlify.app
 
 ---
 
 ## 📸 Preview
 
 <p align="center">
-  <a href="https://nizam-datta-admin-dashboard.netlify.app">
+  <a href="https://admin-dashboard-n.netlify.app">
     <img src="src/assets/images/dashboard-preview.png" width="100%" />
   </a>
 </p>
@@ -39,7 +39,8 @@ This dashboard provides a clean and scalable UI for managing data, visualizing a
 * ✅ Modern React Dashboard UI
 * ✅ Fully Responsive Layout
 * ✅ Sidebar & Navbar Navigation
-* ✅ Authentication Pages (Login / Register)
+* ✅ Responsive Sidebar with Mobile Toggle (Off-canvas) 
+* ✅ Authentication UI Pages (Login & Register - Frontend Only)
 * ✅ Dashboard Analytics Cards
 * ✅ Reusable Components
 * ✅ Organized Folder Structure
@@ -50,13 +51,13 @@ This dashboard provides a clean and scalable UI for managing data, visualizing a
 ## 🛠️ Tech Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,js,css,vite" />
+ <img src="https://skillicons.dev/icons?i=react,js,tailwind,vite" />
 </p>
 
 * **React.js** — Frontend Library
 * **Vite** — Fast Build Tool
 * **JavaScript (ES6+)** — Logic & Functionality
-* **CSS3** — Styling & Layout
+* **Tailwind CSS** — Utility-first styling
 
 ---
 
@@ -64,15 +65,6 @@ This dashboard provides a clean and scalable UI for managing data, visualizing a
 
 ```
 Datta_Admin_Dashboard/
-│
-├── dist/                         # Production build files
-│   ├── assets/
-│   │   ├── index-*.js
-│   │   ├── index-*.css
-│   │   ├── logo-dark.svg
-│   │   ├── logo-white.svg
-│   │   └── fav_icon.png
-│   └── index.html
 │
 ├── public/                       # Static public assets
 │   ├── fav_icon.png
@@ -156,7 +148,7 @@ This project was built to practice creating a **real-world admin dashboard** usi
 ### Clone the repository
 
 ```
-git clone https://github.com/nizamnehal/Datta_Admin_Dashboard.git
+git clone https://github.com/nizamnehal/Dashboard.git
 ```
 
 ### Install dependencies
