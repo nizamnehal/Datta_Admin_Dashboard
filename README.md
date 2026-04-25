@@ -4,7 +4,7 @@
   <a href="https://admin-dashboard-n.netlify.app">
     <img src="https://img.shields.io/badge/Live%20Demo-View%20Dashboard-blue?style=for-the-badge&logo=vercel" />
   </a>
-  <a href=" https://github.com/nizamnehal/Dashboard.git">
+  <a href="https://github.com/nizamnehal/Dashboard.git">
     <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github" />
   </a>
 </p>
